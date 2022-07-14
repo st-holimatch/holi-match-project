@@ -1,0 +1,153 @@
+/* BANNER */
+
+.bannerHoli {
+    position: relative;
+    background-color: none;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+    
+.bannerHoli video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+    
+.bannerHoli .container {
+    position: relative;
+    z-index: 2;
+}
+    
+.display-holi-txt{
+    color:#fff;
+    font-size:3.8rem;
+        
+}
+
+/* Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color:#fff;
+}
+
+
+
+.detalles-card{
+  -webkit-transition: -webkit-transform .2s ease-out;
+  transition: -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out;
+  transition: transform .2s ease-out,-webkit-transform .2s ease-out;                
+}
+
+.detalles-card:hover {
+  transform: translatey(-16px);
+}
+
+
+.btn-header a{
+  color:#000;
+  font-size:35px;  
+}
+
+.btn-header:hover a{
+  color:#000;
+  font-size:40px;
+}
+
+.cart-btn:hover a{
+  position: relative;
+  display: block;
+  color: #fff;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+
+.btn-holi{
+  position:relative;
+  display:inline-block;
+  vertical-align: top;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  line-height: 30px;
+  padding: 11px 25px 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-transform: none;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 6px;
+  -moz-transition:all 0.3s ease;
+  -webkit-transition:all 0.3s ease;
+  -ms-transition:all 0.3s ease;
+  -o-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+}
+
+.btn-holi:hover{
+    transform: scale(1.10);
+    color: #ffffff;
+}
+
+
+.btn-zoom:hover{
+    transform: scale(1.10)
+}
+
+
+.main-header .btn-login{
+    position: relative;
+    background: #000;
+    font-size: 14px;
+    /*border: 2px solid #ffffff;*/
+    border-radius: 4px;
+    transition: transform .3s;
+}
+
+.main-header .btn-login a{
+  position: relative;
+  display: block;
+  color: #fff;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+
+
+.item-holi{
+    border-radius: 0.5rem;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.item-holi:hover{
+    transform: scale(1.12);
+}
+
+.prod-block .detalles a{
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f27c21;
+  line-height: 1.2em;
+}
+
+
+.news-holi{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
